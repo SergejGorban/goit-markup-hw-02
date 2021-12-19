@@ -2,10 +2,10 @@
     --title-color: #212121;
     --text-color: #757575;
     --accent-color: #2196F3;
+    --btn-color: #FFFFFF;
 }
 body {
-    font-family: "Roboto", "Raleway", sans-serif ;
-    background-color: #E5E5E5;
+    font-family: "Roboto", sans-serif ;
 }
 
 .list {
@@ -18,12 +18,12 @@ body {
 /*-----------------HEADER---------------*/
 
 .header-link {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-nav-link {
@@ -39,31 +39,19 @@ body {
     color: var(--accent-color);
 }
 
-.header-link-mail {
+.contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--text-color);
 }
 
-.header-link-mail:hover,
-.header-link-mail:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--accent-color);
 }
 
-.header-link-tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
-
-.header-link-tel:hover,
-.header-link-tel:focus {
-    color: var(--accent-color);
-}
 
 /*-----------------BANNERS---------------*/
 
@@ -78,7 +66,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--btn-color);
 }
 
 .banners-btn {
@@ -89,12 +77,12 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--btn-color);
     cursor: pointer;
 }
 
 .banners-btn {
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 /*-----------------ADVANTAGES---------------*/
@@ -109,7 +97,6 @@ body {
 }
 
 .advantages-item-text {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -148,12 +135,11 @@ body {
 }
 
 .team-text {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 /*-----------------FOOTER---------------*/
@@ -167,7 +153,7 @@ body {
 }
 
 .footer-link {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -181,12 +167,10 @@ body {
 }
 
 .address-link-map {
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--btn-color);
 }
 
 .address-link-map:hover,
@@ -195,7 +179,6 @@ body {
 }
 
 .address-link {
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -211,19 +194,19 @@ body {
 
 /*-------------------NAVIGATION-----------------*/
 
-.navigation-btn {
+.filter-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color) ;
     cursor: pointer;
 }
 
-.navigation-btn:hover,
-.navigation-btn:focus {
-    color: #FFFFFF;
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--btn-color);
     background-color: var(--accent-color);
 }
 
@@ -238,7 +221,6 @@ body {
 }
 
 .services-text {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
