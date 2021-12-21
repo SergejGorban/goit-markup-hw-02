@@ -3,6 +3,7 @@
     --text-color: #757575;
     --accent-color: #2196F3;
     --btn-color: #FFFFFF;
+    --logo-color: #000000;
 }
 body {
     font-family: "Roboto", sans-serif ;
@@ -27,7 +28,7 @@ body {
 }
 
 .header-logo {
-    color: black;
+    color: var(--logo-color);
 }
 
 .header-nav-link {
@@ -156,18 +157,8 @@ body {
     font-style: normal;
 }
 
-.footer-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
-}
-
-.footer-link:hover,
-.footer-link:focus{
-    color: var(--accent-color);
+.footer-logo {
+    color: var(--btn-color);
 }
 
 .address-link-map {
