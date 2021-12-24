@@ -16,6 +16,13 @@ body {
     text-decoration: none;
 }
 
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -29,22 +36,14 @@ body {
     margin: -1px;
 }
 
-.container {
-    width: 1600px;
-    margin: 0 auto;
-}
 
-.container-smaller {
-    width: 1170px;
-    margin: 0 auto;
-}
+
+
 
 
 /*-----------------HEADER---------------*/
 
-.header {
-    padding: 24px 215px 25px ;
-}
+
 
 .header-container {
     display: flex;
@@ -95,8 +94,6 @@ body {
 
 .banners {
     background-color: #2F303A;
-    padding-top: 200px;
-    padding-bottom: 200px;
 }
 
 .banners-title {
@@ -127,10 +124,7 @@ body {
 
 /*-----------------ADVANTAGES---------------*/
 
-.advantages {
-    margin-top: 94px;
-    margin-bottom: 94px;    
-}
+
 
 .advantages-item-title {
     font-weight: 700;
